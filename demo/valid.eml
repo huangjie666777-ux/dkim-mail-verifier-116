@@ -1,0 +1,19 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=example.com; s=s1; h=received:received:from:to:subject:date:message-id; bh=xa2DqYIh2EtDC9jG7UvUMKPgUM3rKCJ5fHA0RKmhoGk=; b=
+ RmSVTZk6eJOl54ckGt19zcx4Htg6ySggsxvEnrZ0wGfNTjOPlhWGcxEp89UVQZCvDa79+hvx
+ Vmwe7CuNGzr0Ks4FLNLy3vWL7QiW7DTTKDa9gvrCBgL6nY/HOEYFtQWBsSib3dDY0XDyUAQH
+ Gy+Jk3Dg/gU+FqRUyzsqta7mlt1mK03oDVuDDnjSO47YH230GM+hNq/nJ9b+Wj5ovBG+iv6Z
+ CDDqx7Skfcd31jr6fBYwvCmCPFF1iiKm2oFMbGawlBwgPLt0ACIcsNsbUrBC/ehPdWHNjcMO
+ n5f5Ym75IK/IoQlCu3y7OVIq0xB72QyPJ7Abf8oiTJLwygNQLwMAKQ==
+Received: from mail.example.com by mx.example.org
+Received: from localhost by mail.example.com
+From: Alice <alice@example.com>
+To: Bob <bob@example.org>
+Subject: DKIM demo
+	with a folded subject line
+Date: Thu, 02 Oct 2026 10:00:00 +0000
+Message-ID: <demo-1@example.com>
+
+Hello Bob,
+this is a DKIM verification demo.
+
+-- Alice
